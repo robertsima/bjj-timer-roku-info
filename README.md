@@ -17,11 +17,27 @@ BJJ Timer helps practitioners run training sessions, drilling rounds, open mats,
 
 ## Screenshots
 
-![Setup](screenshots/setup-screen.png)
+![App overview](screenshots/collage-all-screens.jpg)
 
-![Round](screenshots/active-round.png)
+### Setup
 
-![Break](screenshots/break-screen.png)
+Choose a preset or customize round length, break length, and total rounds.
+
+![Custom setup](screenshots/01-setup-custom.jpg)
+
+![Open Mat preset](screenshots/04-open-mat-setup.jpg)
+
+### Session flow
+
+Pre-round countdown, active round, break, and session summary.
+
+![Pre-round countdown](screenshots/02-pre-round-starting.jpg)
+
+![Active round](screenshots/03-round-active.jpg)
+
+![Break](screenshots/05-break.jpg)
+
+![Session complete](screenshots/06-session-complete.jpg)
 
 ## Privacy
 
