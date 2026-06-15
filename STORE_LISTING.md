@@ -1,69 +1,83 @@
-# Roku Channel Store listing copy
+# Roku Channel Store Listing
 
-Suggested text for the Roku Developer Dashboard. Adjust tone or length to fit field limits.
+## Channel Name
 
-## Channel name
+BJJ Timer: Jiu Jitsu Clock
 
-BJJ Timer
+## Short Description
 
-## Short description (≈200 characters)
+Simple Brazilian Jiu-Jitsu round timer for Roku. Configure rounds, breaks, countdowns, and training sessions directly from your remote.
 
-Round timer for BJJ training. Set rounds, breaks, and presets from your remote. Audio cues, pause, skip, and session summary. No account required.
+## Long Description
 
-## Long description
+BJJ Timer: Jiu Jitsu Clock is a simple training timer designed for Brazilian Jiu-Jitsu practitioners, grapplers, wrestlers, MMA athletes, and anyone who uses interval-based training.
 
-BJJ Timer helps you run structured mat time on your TV. Pick a preset or build your own session, then start training with clear on-screen timing and audio cues.
+Create custom training sessions with configurable round lengths, break periods, pre-round countdowns, and multiple-round formats directly from your Roku device.
 
-**What you get**
+Whether you're drilling techniques, running live rounds, teaching class, or training at home, BJJ Timer provides a clean, easy-to-read timer display designed for use on a television.
 
-- Simple setup: round length, break length, and number of rounds
-- Presets for Competition, Drilling, and Open Mat
-- 10-second pre-round countdown before each round
-- Beeps at 3, 2, 1, plus a higher start tone when the round begins
-- Visual warnings in the last 10 seconds; stronger alert in the last 3
-- Pause, resume, skip break, and adjust rounds during a session
-- Summary when the session finishes
+### Features
 
-**Built for the gym**
+* Adjustable round lengths
+* Adjustable break lengths
+* 10-second pre-round countdown
+* Single-round or multi-round sessions
+* Unlimited round mode
+* Pause and resume support
+* Large, easy-to-read timer display
+* Simple Roku remote controls
+* No account required
 
-Large timer display, minimal clutter, and remote-only controls — no keyboard needed.
+### Built for Training
 
-**Privacy**
+Designed specifically for Brazilian Jiu-Jitsu and grappling sessions with a clean interface that stays visible from across the room.
 
-No accounts, analytics, ads, or data collection. Settings stay in memory while the app runs.
+### Privacy
+
+No account creation required.
+
+The application does not collect, store, or transmit personal information.
 
 ## Categories
 
-- Sports
-- Utilities
+* Sports
+* Utilities
 
 ## Keywords
 
-bjj, jiu-jitsu, timer, round timer, martial arts, training, gym, interval
+bjj, brazilian jiu jitsu, jiu jitsu, grappling, submission grappling, wrestling, mma, martial arts, round timer, interval timer, training timer, gym timer
 
-## Support contact
+## Support Contact
 
-Robert Sima — robertsima88@gmail.com
+Robert Sima
+[robertsima88@gmail.com](mailto:robertsima88@gmail.com)
 
-## Privacy policy URL
+## Privacy Policy URL
 
-Host `docs/PRIVACY.md` from this repository (GitHub Pages or raw link) and paste the public URL into the dashboard.
+Link to your public Privacy Policy page.
 
-## Terms of service URL
+## Terms of Service URL
 
-Host `docs/TERMS.md` similarly, if required by your listing.
+Link to your public Terms of Service page.
 
-## Minimum firmware
+## Repository Structure
 
-15.1 (required for RSG 1.3)
+```text
+docs/
+├── PRIVACY.md
+├── TERMS.md
 
-## Required assets in this repo
+screenshots/
+├── setup-screen.png
+├── active-round.png
+├── break-screen.png
+├── paused-screen.png
 
-| Asset | File |
-|-------|------|
-| Channel poster HD | `assets/channel-poster_hd.png` |
-| Channel poster FHD | `assets/channel-poster_fhd.png` |
-| Channel poster SD | `assets/channel-poster_sd.png` |
-| Splash HD | `assets/splash-screen_hd.jpg` |
-| Splash FHD | `assets/splash-screen_fhd.jpg` |
-| Splash SD | `assets/splash-screen_sd.jpg` |
+assets/
+├── channel-poster_hd.png
+├── channel-poster_fhd.png
+├── channel-poster_sd.png
+├── splash-screen_hd.jpg
+├── splash-screen_fhd.jpg
+├── splash-screen_sd.jpg
+```
